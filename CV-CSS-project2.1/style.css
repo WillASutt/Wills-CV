@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(43, 250, 153, 0.518);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(118, 4, 116);
+    text-shadow: 2px 2px black;
+    letter-spacing: 10px;
+    font-size: 300%;
+    font-family: Racing Sans One, serif;
+
+}
+
+h2 {
+    color: rgb(131, 18, 179);
+    letter-spacing: 2px;
+    text-shadow: 3px 3px orange;
+}
+
+h3 {
+    color: purple;
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Tahoma, serif;
+    color: #802701;
+}
+
+li {
+    font-family: Tahoma, serif;
+    color: #802701;
+}
+
+table {
+    font-family: Tahoma, serif;
+    color: #802701;
+}
+
+#project {
+    text-shadow: 2px 2px yellow, 3px 3px orange;
+    font-size: 225%;
+}
+
+a {
+    text-decoration: none;
+    color: #80270194;
+}
