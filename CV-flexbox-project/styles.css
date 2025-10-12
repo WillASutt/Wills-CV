@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E7F2EF;
+    border: 5px double #2F5755;
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2;
+}
+
+h1 {
+    text-align: center;
+    color: #19183B;
+    text-shadow: 3px 3px #A1C2BD;
+    letter-spacing: 8px;
+    font-size: 300%;
+    font-family: Racing Sans One, serif;
+    padding-bottom: 1rem;
+    /* style h1 with larger font size and spacing for more significance */
+}
+
+h2 {
+    color: #476EAE;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px yellow, 3px 3px orange;
+    padding-bottom: 0.5rem;
+    font-size: 210%;
+}
+
+h3 {
+    color: #476EAE;
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    font-size: 150%;
+}
+
+h4 {
+    text-decoration: underline;
+    /* Add underline for better readability */
+}
+
+p {
+    font-family: Tahoma, serif;
+    color: #19183B;
+}
+
+li {
+    font-family: Tahoma, serif;
+    color: #19183B;
+}
+
+table {
+    font-family: Tahoma, serif;
+    color: #19183B;
+}
+
+#project {
+    text-shadow: 2px 2px yellow, 3px 3px orange;
+    font-size: 225%;
+    /* Add shadow and larger font size to make text pop */
+}
+
+a {
+    text-decoration: none;
+    color: #48B3AF;
+    /* removed underline from anchor tags */
+}
+
+form div {
+    color: #19183B;
+    font-family: Tahoma, serif;
+}
+
+/*==Flexbox Alignment==*/
+
+/*Header Alignment*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+}
+
+
+header .img-self {
+    display: block;
+    border-radius: 50%;
+    border: double #2F5755 3px;
+    align-self: flex-start;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    /* rounded the image and aligned in the top right corner */
+}
+
+header .name-self {
+    align-self: center;
+}
+
+header .info {
+    align-self: flex-end;
+}
+
+/* Section alignment */
+section {
+    margin: 4rem 0;
+    border-top: 3px dotted;
+}
+
+/* Skills alignment */
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Form alignment */
+form input, form textarea, form select {
+    padding: 0.1rem 0.2rem;
+    border: 2px dotted;
+    color: #19183B;
+}
+
+form button {
+    padding: 0.3rem 1rem;
+    color:#239BA7;
+    border: 2px solid;
+    background-color: white;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .text-input-cont,
+.contact .select-cont,
+.contact .checkbox-cont {
+    display: flex;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.contact .text-input-cont input,
+.contact .text-input-cont textarea,
+.contact .select-container select {
+    width: 15rem;
+}
+
+.contact h3 {
+    align-self: flex-start;
+}
+/* Centered and spaced the forms contact area for cleaner readability */
+
+
+
+
+

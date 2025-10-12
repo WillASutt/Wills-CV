@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William's CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 
 
@@ -12,13 +12,13 @@
 <body>
     <header>
         <img  class="img-self" src="imgs/will-cv-pic.jpeg" height="150" alt="Will's Face">
-        <h1>William Andrew Sutton</h1>
+        <h1 class="name-self">William Sutton</h1>
 
-        <p>Email: <a href="">williama1992@outlook.com</a></p>
+        <p class="info">Email: <a href="">williama1992@outlook.com</a>
+        <br>
         <!--Will be adding a send message to email link-->
-        <p>Phone: 502-507-8479</p>
+        Phone: 502-507-8479</p>
     </header>
-    <hr>
 
     <section>
         <h2>Summary:</h2>
@@ -35,8 +35,9 @@
             </ul>
     </section>
         
-    <section>
-         <h3>Skills</h3>
+    <section class="skills">
+         <div>
+            <h3>Skills</h3>
             <ol>
                 <li>Excellent problem solving skills</li>
                 <li>Great communication skills</li>
@@ -45,9 +46,11 @@
                 <li>Strong math skills</li>
                 <li>Experience with SQL database</li>
             </ol>
+         </div>
 
-         <table>
-            <caption><b>Language Skills</b></caption>
+         <div>
+            <table>
+            <h3><b>Language Skills</b></h3>
             <thead>
                 <tr>
                     <th>Language</th>
@@ -87,8 +90,8 @@
             <!--Add more languages as I progress-->
             <!--Use <aside> to restructure table after learning CSS--> 
             <!--Update Python, SQL, Java, and CSS skills after completing course-->
+         </div>
     </section>
-    <hr>
 
     <section>
         <h3>Work Experience</h3>
@@ -106,7 +109,6 @@
             </ul>
             <!--I will edit experience to standout to the specific jobs that I'll be applying to.-->
     </section>
-    <hr>
 
     <section>
         <h2 id="project">Projects:</h2>
@@ -114,47 +116,51 @@
         <!--Projects will be added as i go through the course. And more will be added afterwards.-->
         <!--Add projects that showcase front end and eventually back end development-->
     </section>
-    <hr>
 
-    <div>
+    <section class="contact">
         <h3>Contact Me:</h3>
         <form>
-            <label>
-                Name:
-                <input type="text" name="name" placeholder="Enter name" required>
-            </label>
-            <br>
+            <div class="text-input-cont">
+                <label>
+                    Name:
+                    <input type="text" name="name" placeholder="Enter name" required>
+                </label>
+            </div>
 
-            <label>
-                Email:
-                <input type="email" name="email" placeholder="Email" required>
-            </label>
-            <br>
+            <div class="text-input-cont">
+                <label>
+                    Email:
+                    <input type="email" name="email" placeholder="Email" required>
+                </label>
+            </div>
 
-            Business Inquiry:
-            <input type="checkbox" name="Inquiry">
-            <br>
+            <div class="checkbox-cont">
+                Business Inquiry:
+                <input type="checkbox" name="Inquiry">
+            </div>
 
-            Reason for Contact:
-            <select name="reason">
-                <option value="Job Offer">Job Offer</option>
-                <option value="FreeLance">Freelance Project</option>
-                <option value="Project">Project Help</option>
-                <option value="question">General Questions</option>
-            </select>
-            <br>
-            <br>
+            <div class="select-cont">
+                Reason for Contact:
+                <select name="reason">
+                    <option value="Job Offer">Job Offer</option>
+                    <option value="FreeLance">Freelance Project</option>
+                    <option value="Project">Project Help</option>
+                    <option value="question">General Questions</option>
+                </select>
+            </div>
             <!--Add more reason options after learning more about the development field-->
 
-            Message:
-            <textarea name="essay" cols="30" rows="5"></textarea>
-            <br>
-            <br>
+            <div>
+                Message:
+                <textarea name="essay" cols="30" rows="5"></textarea>
+            </div>
+                <br>
+                <br>
             <!--Used double breaks for cleaner spacing-->
 
-            <button type="submit">Submit</button>
+            <button class="button-cont" type="submit">Submit</button>
         </form>
-    </div>
+    </section>
     <footer>
         <p>Connect with me on <a href="https://github.com">Github</a> and <a href="https://linkedin.com">LinkedIn</a>!</p>
         <!--Create LinkedIn profile-->
