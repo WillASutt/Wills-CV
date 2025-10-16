@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #E7F2EF;
-    border: 5px double #2F5755;
+    background-color: #26667F;
+    border: 5px double white;
     margin: 2rem;
     padding: 2rem;
     line-height: 2;
@@ -22,15 +22,15 @@ h1 {
 }
 
 h2 {
-    color: #476EAE;
+    color: #67C090;
     letter-spacing: 2px;
-    text-shadow: 2px 2px yellow, 3px 3px orange;
+    text-shadow: 2px 2px white, 4px 4px #4F200D;
     padding-bottom: 0.5rem;
     font-size: 210%;
 }
 
 h3 {
-    color: #476EAE;
+    color: #67C090;
     text-decoration: underline;
     padding-bottom: 0.5rem;
     font-size: 150%;
@@ -43,21 +43,25 @@ h4 {
 
 p {
     font-family: Tahoma, serif;
-    color: #19183B;
+    color: white;
 }
 
 li {
     font-family: Tahoma, serif;
-    color: #19183B;
+    color: white;
+}
+
+.workExp li {
+    color: #CFAB8D;
 }
 
 table {
     font-family: Tahoma, serif;
-    color: #19183B;
+    color: white;
 }
 
 #project {
-    text-shadow: 2px 2px yellow, 3px 3px orange;
+    text-shadow: 2px 2px white, 4px 4px #4F200D;
     font-size: 225%;
     /* Add shadow and larger font size to make text pop */
 }
@@ -69,7 +73,7 @@ a {
 }
 
 form div {
-    color: #19183B;
+    color: white;
     font-family: Tahoma, serif;
 }
 
@@ -87,7 +91,7 @@ header {
 header .img-self {
     display: block;
     border-radius: 50%;
-    border: double #2F5755 3px;
+    border: double white 3px;
     align-self: flex-start;
     width: 12rem;
     height: 12rem;
@@ -106,7 +110,7 @@ header .info {
 /* Section alignment */
 section {
     margin: 4rem 0;
-    border-top: 3px dotted;
+    border-top: 3px dotted white;
 }
 
 /* Skills alignment */
@@ -147,7 +151,7 @@ form button {
 .contact .text-input-cont input,
 .contact .text-input-cont textarea,
 .contact .select-container select {
-    width: 15rem;
+    width: 20rem;
 }
 
 .contact h3 {
