@@ -52,7 +52,7 @@ li {
 }
 
 .workExp li {
-    color: #c7846a;
+    color: #C9B59C;
 }
 
 table {
@@ -137,7 +137,14 @@ form button {
     color:#67C090;
     border: 3px solid;
     background-color: white;
+    transition: color 1s ease-in, background-color 1s ease-in;
 }
+
+button:hover {
+    color: white;
+    background-color: #67C090;
+}
+/* added hover function for the submit button.*/
 
 
 .contact {
@@ -166,6 +173,23 @@ form button {
 /* Centered and spaced the forms contact area for cleaner readability */
 
 
+/* Media Query */
 
-
-
+@media (max-width: 1000px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    header .img-self {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+/* Added media query to scale the header and skills section so that it isn't overlapping.
